@@ -33,11 +33,11 @@ int main()
                     else {
                         std::cout << "Dime el nombre del juego\n";
                         std::getline(std::cin, videojuego1[0]);
+                        std::getline(std::cin, videojuego1[0]);
                         std::cout << "En que año se lanzo?\n";
                         std::getline(std::cin, videojuego1[1]);
                         std::cout << "Quien fue el director del juego?\n";
                         std::getline(std::cin, videojuego1[2]);
-                        break;
 
                     }
                 }
@@ -57,6 +57,7 @@ int main()
                     else {
                         std::cout << "Dime el nombre del juego\n";
                         std::getline(std::cin, videojuego2[0]);
+                        std::getline(std::cin, videojuego2[0]);
                         std::cout << "En que año se lanzo?\n";
                         std::getline(std::cin, videojuego2[1]);
                         std::cout << "Quien fue el director del juego?\n";
@@ -70,6 +71,7 @@ int main()
                     std::cout << "Fue lanzado el " << videojuego2[1] << std::endl;
                     std::cout << "Dirigido por " << videojuego2[2] << std::endl;
                 }
+                break;
             case 3:
                 if (videojuego3[0] == "") {
                     std::cout << "No tenemos datos en este juego, ¿Quieres agregar unos?\n";
@@ -79,6 +81,7 @@ int main()
                     }
                     else {
                         std::cout << "Dime el nombre del juego\n";
+                        std::getline(std::cin, videojuego3[0]);
                         std::getline(std::cin, videojuego3[0]);
                         std::cout << "En que año se lanzo?\n";
                         std::getline(std::cin, videojuego3[1]);
